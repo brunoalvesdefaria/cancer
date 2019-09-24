@@ -7,6 +7,7 @@ import MediaQuery from 'react-responsive';
 import CornerstoneViewport from './CornerstoneViewport.js';
 import ActiveToolbar from './ActiveToolbar.js';
 import CaseControlButtons from './CaseControlButtons.js';
+import CaseProgress from './CaseProgress.js';
 import MeasurementControl from './MeasurementControl.js';
 import HeaderSection from './HeaderSection.js';
 
@@ -218,6 +219,9 @@ class Viewer extends Component {
       );
     });
 
+    const sessionMeasurements = this.props.measurementsInCurrentSession;
+    const caseMeasurements = this.state.toolData.length;
+
     return (
       <div className="Viewer">
         <MediaQuery query="(min-width: 768px)">
@@ -260,6 +264,10 @@ class Viewer extends Component {
               saveCase={this.saveCase}
               skipEnabled={this.isSkipEnabled()}
               skipCase={this.skipCase}
+            />
+            <CaseProgress
+              sessionMeasurements={sessionMeasurements}
+              caseMeasurements={caseMeasurements}
             />
           </div>
         </MediaQuery>
