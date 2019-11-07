@@ -83,6 +83,7 @@ class Viewer extends Component {
     this.toggleLabelSelectTree = this.toggleLabelSelectTree.bind(this);
     this.labelDoneCallback = this.labelDoneCallback.bind(this);
     this.onNewImage = this.onNewImage.bind(this);
+    this.setCurrentLesion = this.setCurrentLesion.bind(this);
   }
 
   componentDidMount() {
@@ -244,6 +245,7 @@ class Viewer extends Component {
               showLabelSelectTree={this.state.showLabelSelectTree}
               labelDoneCallback={this.labelDoneCallback}
               onNewImage={this.onNewImage}
+              setCurrentLesion={this.setCurrentLesion}
             />
           ) : (
             <LoadingIndicator />
@@ -452,6 +454,7 @@ class Viewer extends Component {
 
     this.setState({
       currentLesion: previousLesion,
+      currentLesionFocused: true,
       magnificationActive: false
     });
   }
@@ -472,6 +475,7 @@ class Viewer extends Component {
 
     this.setState({
       currentLesion: nextLesion,
+      currentLesionFocused: true,
       magnificationActive: false
     });
   }
@@ -488,6 +492,10 @@ class Viewer extends Component {
       // and stop event from bubbling
       return false;
     }
+  }
+
+  setCurrentLesion(currentLesion) {
+    this.setState({ currentLesion });
   }
 
   focusCurrentLesion() {
