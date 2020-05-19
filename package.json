@@ -34,7 +34,7 @@
     "react-router-dom": "4.3.1",
     "react-scripts": "2.1.1",
     "react-tooltip": "3.9.0",
-    "react-transition-group": "2.5.0",
+    "react-transition-group": "4.4.1",
     "redux": "4.0.1",
     "rollbar": "2.5.0",
     "whatwg-fetch": "3.0.0"
