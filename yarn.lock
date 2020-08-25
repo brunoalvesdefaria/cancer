@@ -3173,7 +3173,12 @@ detect-port-alt@1.1.6:
     address "^1.0.1"
     debug "^2.6.0"
 
-dicom-parser@1.8.1, dicom-parser@^1.8.1:
+dicom-parser@1.8.7:
+  version "1.8.7"
+  resolved "https://registry.yarnpkg.com/dicom-parser/-/dicom-parser-1.8.7.tgz#36df15f8b4250e56f164d8a50484c45e0a5668de"
+  integrity sha512-JRh6ciXii1JiDFxd3yUiteNZbOd4Ebmq9HBJlxEJ4Gd1CC5tMIs8zoztK69Ih0UeT96ixbmanb4M2mjaaYT8sg==
+
+dicom-parser@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/dicom-parser/-/dicom-parser-1.8.1.tgz#5baef740f7ae2911921f3e4109b89c936b8b3273"
   integrity sha512-8lgmQ+p4KD9lWdDpte/goUFZW9BrNCqYM/mEpO2IZl1srHj+2kmzWNbIMnYdQH60IMreS0ECJ8BnWE0rHSvBGA==
