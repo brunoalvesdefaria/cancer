@@ -2624,7 +2624,12 @@ cornerstone-core@2.2.7:
   resolved "https://registry.yarnpkg.com/cornerstone-core/-/cornerstone-core-2.2.7.tgz#2205d34df5d98cfd040d2cd87987928f6001c29b"
   integrity sha512-D2CQQMrnr9G/lH4fNspjwiqPcgS+bDFbltcGV1Y/az+402Ja0iNyMkrGQEuaaQNsz6A1D6GD03MUGI9AeVHMDw==
 
-cornerstone-math@0.1.6, cornerstone-math@^0.1.6:
+cornerstone-math@0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/cornerstone-math/-/cornerstone-math-0.1.9.tgz#7ce5509e8b9f465b01f7c548470725e7569859fc"
+  integrity sha512-NxdooV73asEQgav1S+0e+a4K+W3CXJdLXyFkVN24qqCtmIpzZzwtw3F9KWPCekzSAJmbhtQ3HicOQj3d4vRtuw==
+
+cornerstone-math@^0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/cornerstone-math/-/cornerstone-math-0.1.6.tgz#93b3ad72fae815383cce5180af23836550200c3a"
   integrity sha1-k7OtcvroFTg8zlGAryODZVAgDDo=
