@@ -24,7 +24,7 @@
     "pouchdb-browser": "7.0.0",
     "pouchdb-find": "7.0.0",
     "prettier": "1.14.3",
-    "promise-polyfill": "8.1.0",
+    "promise-polyfill": "8.3.0",
     "react": "16.6.0",
     "react-dom": "16.6.0",
     "react-modal": "3.6.1",
