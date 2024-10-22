@@ -6,8 +6,8 @@
   "repository": "https://github.com/crowds-cure/cancer",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "7.1.5",
-    "@babel/polyfill": "7.0.0",
+    "@babel/core": "7.25.9",
+    "@babel/polyfill": "7.12.1",
     "cornerstone-core": "2.2.7",
     "cornerstone-math": "0.1.6",
     "cornerstone-tools": "swederik/cornerstoneTools#ccc-perf-testing",
