@@ -23,7 +23,7 @@
     "oidc-client": "1.5.4",
     "pouchdb-browser": "7.0.0",
     "pouchdb-find": "7.0.0",
-    "prettier": "1.14.3",
+    "prettier": "1.19.1",
     "promise-polyfill": "8.1.0",
     "react": "16.6.0",
     "react-dom": "16.6.0",
